@@ -135,7 +135,7 @@
      console.log('j')
      e.preventDefault()
      let key_val=$('#text_value').val(); 
-    if(key_val=='testing')
+    if(key_val=='srirama')
     {
       update_db()
       clear_text();
