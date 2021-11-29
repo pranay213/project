@@ -30,7 +30,7 @@ class Welcome extends CI_Controller {
 	}
 	public function update_db()
 	{
-		if($this->input->post('text')=='testing')
+		if($this->input->post('text')=='srirama')
 		{
 			$this->load->model('Result');
 			echo $this->Result->update_count();
