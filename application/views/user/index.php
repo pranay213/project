@@ -68,7 +68,7 @@
       </div>
       <!-- <div class="time"><span>07:54 AM</span></div> -->
     </div>
-    <div id='scrollhere'></div>
+    <div id='scrollhere'>this div scroll</div>
       </div>
     <footer>
     <div class="editor" style="border:2px solid grey;border-radius:10px">
