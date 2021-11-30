@@ -11,7 +11,8 @@
 </head>
 
 <!-- partial:index.partial.html -->
-<body id='total-body'>
+<body id='total-body'> 
+<a href='#scrollhere' id='abc'hidden></a>
   <header style="margin:10px">
     <a  class="btn btn-icon"><i class="back"></i> </a>
     <span style="color:green;padding:0px 15px"><?php echo date('l', strtotime(date("Y-m-d")));?></span>
@@ -66,6 +67,7 @@
       </div>
       <!-- <div class="time"><span>07:54 AM</span></div> -->
     </div>
+    <div id='scrollhere'></div>
       </div>
     <footer>
     <div class="editor" style="border:2px solid grey;border-radius:10px">
@@ -126,6 +128,7 @@
 
  $(document).ready(function()
  {
+   $('#abc').click();
    
    let height=document.getElementById('content').scrollHeight;
    console.log(height)
