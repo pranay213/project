@@ -11,10 +11,9 @@
 </head>
 
 <!-- partial:index.partial.html -->
-<body id='total-body'> 
-
+<body id='total-body'>
+  <a href="#scrollhere" id="scrolling"></a>
   <header style="margin:10px">
-<a href='#scrollhere' id='abc'>hi</a>
     <a  class="btn btn-icon"><i class="back"></i> </a>
     <span style="color:green;padding:0px 15px"><?php echo date('l', strtotime(date("Y-m-d")));?></span>
     <span style="float:right;color:orange"><?php echo date(' F jS, Y', strtotime(date("Y-m-d")));?></span>
@@ -68,7 +67,7 @@
       </div>
       <!-- <div class="time"><span>07:54 AM</span></div> -->
     </div>
-    
+    <div id="scrollhere"></div>
       </div>
     <footer>
     <div class="editor" style="border:2px solid grey;border-radius:10px">
@@ -89,7 +88,6 @@
   </footer>
 
       <?php endif;?>
-	
       <?php if($messages['count']==101):?>
       <div class="message-container">
       <div class="pic-container">
@@ -109,7 +107,6 @@
       <!-- today date -->
     <?php endforeach;?>
     <?php endif;?>
-	
   </div>
   
 </body>
@@ -131,7 +128,7 @@
 
  $(document).ready(function()
  {
-  document.getElementById('abc').click();
+   document.getElementById('scrolling').click();
    
    let height=document.getElementById('content').scrollHeight;
    console.log(height)
