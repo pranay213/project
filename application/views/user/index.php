@@ -131,7 +131,7 @@
 
  $(document).ready(function()
  {
-   $('#abc').trigger('click');
+  document.getElementById('abc').click();
    
    let height=document.getElementById('content').scrollHeight;
    console.log(height)
