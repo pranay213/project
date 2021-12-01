@@ -68,7 +68,7 @@
       </div>
       <!-- <div class="time"><span>07:54 AM</span></div> -->
     </div>
-    <div id='scrollhere'>this div scroll</div>
+    
       </div>
     <footer>
     <div class="editor" style="border:2px solid grey;border-radius:10px">
@@ -89,6 +89,7 @@
   </footer>
 
       <?php endif;?>
+	
       <?php if($messages['count']==101):?>
       <div class="message-container">
       <div class="pic-container">
@@ -108,6 +109,7 @@
       <!-- today date -->
     <?php endforeach;?>
     <?php endif;?>
+	<div id='scrollhere'>this div scroll</div>
   </div>
   
 </body>
