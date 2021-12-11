@@ -71,7 +71,7 @@
       </div>
     <footer>
     <div class="editor" style="border:2px solid grey;border-radius:10px">
-      <input type="text" id="text_value"  placeholder="Type Here...." />
+      <input type="text" id="text_value"  placeholder="Type Here...." autocomplete="off"/>
       <a  class="btn btn-icon btn-big right"><i class="send"></i></a>
     </div>
     <!-- <div class="tab-container">
