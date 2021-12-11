@@ -38,9 +38,7 @@
       <div class="message">
         <p>Please Complete today Task... Remaining <span style="color:orange"><?php echo 101-$messages['count']; ?> Times</span></p>
       </div>
-		  
       <!-- <div class="time"><span>07:54 AM</span></div> -->
-	     
     </div>
       
 
@@ -57,7 +55,7 @@
       </div>
       <!-- <div class="time"><span>07:54 AM</span></div> -->
     </div>
-	
+    
 
       <?php endif;?>
       <?php endif;?>
@@ -65,5 +63,3 @@
       <!-- today date -->
     <?php endforeach;?>
     <?php endif;?>
-
-      
